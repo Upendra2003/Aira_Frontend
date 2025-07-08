@@ -1,0 +1,17 @@
+{
+  "extends": "expo/tsconfig.base",
+  "compilerOptions": {
+    "strict": true,
+    "paths": {
+      "@/*": [
+        "./*"
+      ]
+    }
+  },
+  "include": [
+    "**/*.ts",
+    "**/*.tsx",
+    ".expo/types/**/*.ts",
+    "expo-env.d.ts"
+, "utils/chatStore.js", "app/chat.jsx", "app/(tabs)/Journals.jsx", "app/_layout.jsx", "app/mentalScore.jsx", "app/vision.jsx", "app/(tabs)/(chat)/index.tsx", "app/GiftChat.jsx"  ]
+}
